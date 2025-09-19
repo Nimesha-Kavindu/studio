@@ -1,10 +1,12 @@
 import './App.css'
-import logo from './assets/logo.png'
+import Header from './components/Header'
 
 function App() {
+  
+
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col p-4">
-        <img src={logo} alt="Logo" className="h-20 w-auto mx-auto mb-6" />
+    <div className="min-h-screen bg-gray-50 pt-8 pr-6">
+        <Header/>
     </div>
   )
 }
