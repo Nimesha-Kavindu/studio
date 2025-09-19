@@ -22,9 +22,15 @@ export default function Header() {
                     className="p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 sm:absolute sm:right-0"
                     aria-label="Toggle menu">
                     <div className="w-6 h-6 flex flex-col justify-center items-center">
-                        <span className="block w-5 h-0.5 bg-current mb-1"></span>
-                        <span className="block w-5 h-0.5 bg-current mb-1"></span>
-                        <span className="block w-5 h-0.5 bg-current"></span>
+                        <span className={`block w-5 h-0.5 bg-current transform transition-all duration-300 ${
+                            isMenuOpen ? 'rotate-45 translate-y-0.5' : 'mb-1'
+                        }`}></span>
+                        <span className={`block w-5 h-0.5 bg-current transition-all duration-300 ${
+                            isMenuOpen ? 'opacity-0' : 'mb-1'
+                        }`}></span>
+                        <span className={`block w-5 h-0.5 bg-current transform transition-all duration-300 ${
+                            isMenuOpen ? '-rotate-45 -translate-y-0.5' : ''
+                        }`}></span>
                     </div>
                 </button>
             </div>
