@@ -19,7 +19,7 @@ export default function Header() {
                 {/* Hamburger Menu - always on the right */}
                 <button
                     onClick={toggleMenu}
-                    className="p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 sm:absolute sm:right-0"
+                    className="p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 sm:absolute sm:right-0 cursor-pointer"
                     aria-label="Toggle menu">
                     <div className="w-6 h-6 flex flex-col justify-center items-center">
                         <span className={`block w-5 h-0.5 bg-current transform transition-all duration-300 ${

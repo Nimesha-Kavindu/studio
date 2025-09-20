@@ -4,16 +4,16 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-6">
                 {/* Social Media Icons */}
                 <div className="flex justify-center space-x-6 mb-6">
-                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-400 transition-colors">
+                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors">
                         <i className="fab fa-instagram text-gray-400 text-lg"></i>
                     </a>
-                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-400 transition-colors">
+                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors">
                         <i className="fab fa-facebook-f text-gray-400 text-lg"></i>
                     </a>
-                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-400 transition-colors">
+                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors">
                         <i className="fab fa-youtube text-gray-400 text-lg"></i>
                     </a>
-                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-400 transition-colors">
+                    <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors">
                         <i className="fab fa-google-plus-g text-gray-400 text-lg"></i>
                     </a>
                 </div>

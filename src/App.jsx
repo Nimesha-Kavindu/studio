@@ -1,19 +1,26 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import Latest from './components/latest'
-import SecondaryHeader from './components/secondaryHeader'
-import Footer from './components/footer'
+import Home from './pages/home'
+import MyPortfolio from './pages/myPortfolio'
+import Contact from './pages/contact'
+import NotFound from './pages/404'
+
 
 function App() {
-  
+
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-8 pr-6">
-        <Header/>
-        <SecondaryHeader/>
-        <Latest/>
-        <Footer/>
-    </div>
+
+    <BrowserRouter>
+      <div className="min-h-screen bg-gray-50">
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/my-portfolio' element={<MyPortfolio/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='*' element={<NotFound/>}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
