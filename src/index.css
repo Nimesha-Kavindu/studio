@@ -39,3 +39,17 @@
 .animate-fade-in-delay-6 {
   animation: fadeIn 0.8s ease-out 1.2s forwards;
 }
+
+/* Shimmer animation for smooth loading */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+}
