@@ -23,7 +23,7 @@ export default function Header() {
             <div className="flex justify-between items-center py-4 sm:justify-center sm:relative sm:pt-8 lg:py-20">
                 {/* Logo - centered on desktop, left on mobile */}
                 <div className="flex-shrink-0 flex justify-center sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2">
-                    <img src={logo} alt="Logo" className="h-16 sm:h-20 w-auto" />
+                    <img src={logo} alt="Logo" className="h-14 sm:h-20 w-auto" />
                 </div>
 
                 {/* Hamburger Menu - always on the right */}
