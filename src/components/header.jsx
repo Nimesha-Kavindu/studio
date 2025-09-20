@@ -67,9 +67,9 @@ export default function Header() {
                             onClick={closeMenu}
                             className="p-2 rounded-full hover:bg-gray-100 transition-colors duration-200"
                             aria-label="Close menu">
-                            <div className="w-6 h-6 flex flex-col justify-center items-center">
-                                <span className="block w-5 h-0.5 bg-gray-700 transform rotate-45 translate-y-0.5"></span>
-                                <span className="block w-5 h-0.5 bg-gray-700 transform -rotate-45 -translate-y-0.5"></span>
+                            <div className="w-6 h-6 flex items-center justify-center relative">
+                                <span className="absolute w-5 h-0.5 bg-gray-700 transform rotate-45"></span>
+                                <span className="absolute w-5 h-0.5 bg-gray-700 transform -rotate-45"></span>
                             </div>
                         </button>
                     </div>
